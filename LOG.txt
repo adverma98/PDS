@@ -1,0 +1,32 @@
+Chronology:
+
+2018:
+
+
+
+Jan 11
+
+>Started Project
+>Implemented code seen in part #1 of series
+>Improved code by comparing different classifiers. Took help from https://github.com/Naresh1318/GenderClassifier/blob/master/Run_Code.py
+>Classifiers: (hazy)
+	>Decision Tree:
+		# Makes a Tree using labels from test data
+		# Once trained, it compares the tree data with the input and decides the prediction
+
+	>SVM:
+		# Support Vector Machine
+		# Redefines data so that a clear hyperplane can be chosen
+	
+	>Perceptron:
+		# Uses input characteristics and weights to compute a score for said input
+		# Compares said score to a threshold
+		# Assigns a corr. Y label output using the result obtained from the above comparison
+		# https://www.csie.ntu.edu.tw/~htlin/mooc/doc/02_handout.pdf
+
+	>KNeighbors:
+		# 
+
+
+
+>Accuracy score is used to choose the most accurate classifiers for our data
